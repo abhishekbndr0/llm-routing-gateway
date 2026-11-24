@@ -1,0 +1,204 @@
+question,label
+What is an adjective?,0
+Is 17 a prime number?,0
+Prove by induction that the sum of the first n odd numbers equals n squared.,1
+"Quick question for a trivia night I am hosting this weekend, which planet is known as the red planet?",0
+What is the tallest mountain in the world?,0
+What does CPU stand for?,0
+How many sides does a hexagon have?,0
+What is a noun?,0
+"Given a stream of events, design a data structure that supports counting distinct elements within a sliding window of the last hour.",1
+How many bits are in a byte?,0
+"Describe how you would design an A/B testing platform, including how to avoid peeking problems and handle multiple comparisons.",1
+What is the average of 10 and 20?,0
+How would you implement a distributed lock using Redis and what failure scenarios make it unsafe?,1
+Design a database schema for a ride sharing app and justify your indexing strategy for the most common queries.,1
+"Design a search engine index for a million documents, explaining inverted indexes, ranking with TF-IDF or BM25, and how you would scale it.",1
+In what year did World War II end?,0
+Who wrote the play Hamlet?,0
+What language is spoken in Brazil?,0
+"Given a graph with weighted edges, explain when Dijkstra's algorithm fails and what you would use instead.",1
+"Explain how public key infrastructure establishes trust, and what could go wrong if a certificate authority is compromised.",1
+How many hours are in a week?,0
+"Debug this: my recursive Fibonacci function in Python is extremely slow for n = 40, and my memoized version gives wrong results after the second call. What could be happening?",1
+"I am writing a short note to my grandmother and just want to know how to spell the word beautiful correctly, can you help?",0
+"Given two strings, describe a dynamic programming solution to compute the edit distance and explain how to reconstruct the edit operations.",1
+Compare B-trees and LSM-trees for a write-heavy workload and explain when you would choose each.,1
+What color do you get when you mix blue and yellow?,0
+What is the freezing point of water in Celsius?,0
+Analyze the tradeoffs between microservices and a monolith for a five person startup building a marketplace.,1
+Analyze the cost-benefit of adding a vector database versus using Postgres with pgvector for a team that already runs Postgres.,1
+Who was the first president of the United States?,0
+How do you say thank you in French?,0
+How many days are in a leap year?,0
+"Thanks in advance, I just need to know the name of the author who wrote the book Pride and Prejudice.",0
+Discuss the ethical and technical challenges of deploying a facial recognition system in public spaces.,1
+Prove that the greedy algorithm for interval scheduling is optimal.,1
+What is the capital of Egypt?,0
+"What are the failure modes of a leader election system, and how would you design for split brain prevention?",1
+"How does garbage collection work in the JVM, and how would you tune it for a latency sensitive application?",1
+What is the capital of Spain?,0
+Critique this approach: we cache every LLM response keyed by the exact prompt text. What problems will we hit at scale and how would you improve it?,1
+How would you design a distributed rate limiter that works across many servers without a single point of failure?,1
+Argue for or against using an ORM in a large codebase that has many complex reporting queries.,1
+What does the git status command do?,0
+Give me a rhyme for the word cat.,0
+What is the capital of Japan?,0
+What is the chemical formula for water?,0
+What is the speed of light approximately?,0
+Show that the halting problem is undecidable.,1
+I have a Postgres query that joins three large tables and takes 40 seconds. Describe how you would diagnose and fix it using EXPLAIN ANALYZE.,1
+What is 2 to the power of 10?,0
+"Analyze why a distributed system using timestamps from different machines can produce incorrect orderings, and describe how logical clocks fix this.",1
+Describe how you would implement undo and redo in a collaborative drawing application with multiple users.,1
+What does JSON stand for?,0
+"Write an algorithm to serialize and deserialize a binary tree, and discuss the tradeoffs between different encodings.",1
+"Why can floating point arithmetic make summing a long list of numbers give different results depending on the order, and how would you fix it?",1
+What are the tradeoffs of using exceptions versus result types for error handling in a large systems codebase?,1
+"Compare supervised fine-tuning and retrieval augmented generation for adding company knowledge to an LLM, covering cost, accuracy, and maintenance.",1
+What is the smallest prime number?,0
+What is the atomic number of hydrogen?,0
+Name the four seasons.,0
+What is 100 divided by 4?,0
+What is the symbol for the element oxygen?,0
+"Prove that a binary tree with n leaves, where every internal node has two children, has exactly n minus 1 internal nodes.",1
+"Describe how you would build an observability stack for a microservice architecture, including metrics, traces, and alerting without alert fatigue.",1
+Name three primary colors.,0
+What is the currency of the United Kingdom?,0
+Design a rate limiter for a multi-tenant API and compare the tradeoffs of token bucket versus sliding window.,1
+Explain how copy on write works in the Linux fork system call and why it makes fork cheap.,1
+Convert 5 kilometers to miles.,0
+What is a variable in programming?,0
+Walk me through how TCP congestion control works and how it differs between Reno and CUBIC.,1
+What does the acronym USB stand for?,0
+"Write a parser for arithmetic expressions with operator precedence and parentheses, and explain the grammar you used.",1
+"Solve this: you have 8 balls where one is heavier, and a balance scale you may use twice. Explain your strategy and prove it always works.",1
+How many legs does a spider have?,0
+What is the opposite of ancient?,0
+Explain the Paxos protocol and why it is considered difficult to implement correctly.,1
+What does the ls command do?,0
+Discuss the limitations of using cosine similarity for semantic search and how you might improve retrieval quality beyond a single embedding.,1
+Analyze the time and space complexity of the Floyd-Warshall algorithm and explain when you would prefer running Dijkstra from every vertex.,1
+"Compare the bias-variance tradeoff in random forests and gradient boosted trees, and say which is more prone to overfitting.",1
+What is the longest river in Africa?,0
+Is a tomato a fruit or a vegetable?,0
+What is the boiling point of water in Celsius?,0
+Prove that the square root of 2 is irrational.,1
+How many seconds are in an hour?,0
+Explain how a log structured merge tree performs compaction and how it creates write amplification.,1
+"Explain the intuition and the math behind principal component analysis, including why eigenvectors of the covariance matrix matter.",1
+"Explain how virtual memory, paging, and the TLB interact when a process accesses a page that is not in physical memory.",1
+"Design a data pipeline that ingests clickstream events, handles late and out of order data, and produces accurate hourly aggregates.",1
+Describe the differences between row oriented and column oriented storage and when each is preferable for analytics workloads.,1
+What is the abbreviation for the state of Texas?,0
+Write an efficient algorithm to merge k sorted linked lists and justify why a heap helps.,1
+What is the chemical symbol for gold?,0
+Which gas do plants absorb from the air?,0
+Explain the CAP theorem and discuss how a system like Cassandra handles partitions versus how Spanner does.,1
+"Hey there, sorry to bother you, I just need a fast answer: what does the abbreviation PDF stand for in computing?",0
+What is the first letter of the Greek alphabet?,0
+Derive the update rules for the k-means algorithm and prove that it converges.,1
+"Explain how a bloom filter works, derive its false positive rate, and describe when it is a poor choice.",1
+How many continents are there?,0
+What is the largest ocean on Earth?,0
+"Outline a strategy for refactoring a 200,000 line legacy codebase with no tests without breaking production.",1
+"Explain what happens, step by step, from the moment I type a URL into a browser until the page renders.",1
+Write a thread-safe LRU cache in Python and explain the locking strategy you chose.,1
+What does SQL stand for?,0
+"My friend and I were arguing over lunch about this, so could you just settle it for us: how many days are there in the month of February in a normal non leap year?",0
+How would you detect and break a deadlock between two threads that acquire two locks in different orders?,1
+How many ounces are in a pound?,0
+What is the chemical symbol for sodium?,0
+"Design a notification system that supports email, SMS, and push, with user preferences, retries, and rate limits.",1
+"What are the security implications of storing JWTs in localStorage versus httpOnly cookies, and how would you mitigate XSS and CSRF in each case?",1
+What is the capital city of Germany?,0
+What does the acronym API stand for?,0
+"Write an algorithm to find the shortest path in a grid with obstacles where you can break at most k walls, and analyze its complexity.",1
+What is the plural of child?,0
+What is the largest planet in our solar system?,0
+Explain how the Raft consensus algorithm elects a leader and handles a network partition.,1
+"Explain how backpropagation works in a neural network with two hidden layers, including the chain rule steps.",1
+"Explain why the Python GIL limits CPU bound threading, and compare multiprocessing, asyncio, and C extensions as workarounds.",1
+What command lists the files in a directory on Linux?,0
+Which planet is closest to the sun?,0
+What is a function in Python?,0
+What is a list in Python?,0
+What is the capital of Australia?,0
+What does the acronym FAQ stand for?,0
+Explain how consistent hashing works and what happens to cached keys when a node is added or removed.,1
+"Explain the difference between processes, threads, and coroutines and describe how a context switch works for each.",1
+What is the opposite of increase?,0
+"Design a URL shortener that handles 10,000 writes per second, and explain your choices for storage, ID generation, and caching.",1
+I was just wondering if you could quickly tell me the capital city of Argentina when you get a chance please and thank you.,0
+Describe how you would build a real-time collaborative text editor and explain the role of operational transforms or CRDTs.,1
+"Design an LLM gateway that routes between a cheap and an expensive model, and explain how you would measure whether the routing hurts answer quality.",1
+What is the time complexity of binary search?,0
+What is the square of 9?,0
+"Describe how you would build a fraud detection pipeline for credit card transactions, including features, model choice, and how you handle class imbalance.",1
+What is the capital of Italy?,0
+What is the term for a baby dog?,0
+Could you remind me what the command is to see which folder I am currently in on a Mac terminal?,0
+"Given an array of integers and a target, describe an algorithm to find all unique triplets that sum to zero, then analyze its complexity and edge cases.",1
+Explain why gradient descent can fail to converge on non-convex functions and describe techniques that help in practice.,1
+Capitalize the first letter of each word: the old man and the sea.,0
+"Write a Python function that finds the longest palindromic substring in a string, and analyze its time complexity.",1
+How would you migrate a live production database with 2 TB of data to a new schema with zero downtime?,1
+Derive the expected number of comparisons in randomized quicksort.,1
+Define the word ephemeral in one sentence.,0
+Show how to compute the median of a stream of integers in real time and prove the time bounds of your approach.,1
+A user reports that my Flask app returns stale data after deployment even though the database is updated. List the plausible causes in order of likelihood and how to confirm each.,1
+Tell me a one-line joke.,0
+"Write SQL to find the top three highest paid employees in each department, then explain how window functions differ from GROUP BY.",1
+Show that every comparison based sorting algorithm requires at least n log n comparisons in the worst case.,1
+"What is the difference between a and an in English, briefly?",0
+What day comes after Thursday?,0
+Design an idempotent payment API that remains correct when clients retry after timeouts.,1
+"Design an access control system that supports roles, resource ownership, and temporary delegation, and discuss how you would audit it.",1
+How many minutes are in a day?,0
+Rewrite this in all lowercase: HELLO WORLD.,0
+"Explain how a transformer's self-attention mechanism works, including why we scale the dot products.",1
+Who wrote Romeo and Juliet?,0
+Explain the tradeoffs of eventual consistency for a shopping cart service and how you would resolve conflicting updates.,1
+What does RAM stand for?,0
+Design an algorithm to detect a cycle in a directed graph and explain how it relates to topological sorting.,1
+What is 7 times 8?,0
+Explain why training a large language model with a larger batch size can hurt generalization and what techniques compensate for it.,1
+What month comes after August?,0
+What is the freezing point of water in Fahrenheit?,0
+Compare the memory models of C++ and Java and explain how they affect lock-free programming.,1
+What is 15% of 80?,0
+What is the main language used to style web pages?,0
+"Compare gradient boosting libraries such as XGBoost and LightGBM, and explain their different strategies for growing trees.",1
+Explain how you would detect data drift in a deployed machine learning model and decide when to retrain it.,1
+Explain the differences between OAuth 2.0 and OpenID Connect and walk through the authorization code flow with PKCE.,1
+My Python service leaks memory slowly over several days. Describe a systematic approach to find the leak.,1
+"Compare strong, causal, and eventual consistency and show an example anomaly for each.",1
+"Walk through how you would estimate the number of servers needed for a service handling 50,000 requests per second with a 200 millisecond latency target.",1
+Discuss how you would test a machine learning model for fairness across demographic groups and what tradeoffs arise.,1
+Write a function to solve the N-Queens problem and explain how pruning improves the search.,1
+Who discovered penicillin?,0
+What is the past tense of the verb run?,0
+How would you design a system to deduplicate billions of near-identical documents efficiently?,1
+How do you spell necessary?,0
+Explain how a semantic cache can return a wrong answer and how you would design the system to detect and limit that failure.,1
+Describe how you would reduce p99 latency in a service that calls five downstream dependencies.,1
+Fix the typo in this sentence: teh quick brown fox jumps over the lazy dog.,0
+How many players are on a soccer team on the field?,0
+What does HTTP stand for?,0
+"Why does quicksort have O(n^2) worst-case behavior, and what strategies avoid it in practice?",1
+Derive the closed-form solution for linear regression using the normal equations and explain when it breaks down.,1
+Translate good morning into Spanish.,0
+Who painted the Mona Lisa?,0
+What does the print function do in Python?,0
+"Design a recommendation system for a streaming service that handles the cold start problem, and explain how you would evaluate it offline and online.",1
+What is the plural of mouse?,0
+Explain the difference between L1 and L2 regularization from a probabilistic point of view.,1
+"For my kid's homework, what is 9 plus 6, and could you say it in a friendly way?",0
+What is the square root of 144?,0
+Explain the difference between optimistic and pessimistic concurrency control and give a scenario where each is better.,1
+What is the file extension for Python files?,0
+Give me a synonym for the word happy.,0
+Compare Kubernetes and a simple VM based deployment for a team of four engineers running six services.,1
+What is the boiling point of water in Fahrenheit?,0
+What is the capital of Canada?,0
+Which direction does the sun rise?,0

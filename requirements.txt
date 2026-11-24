@@ -1,0 +1,11 @@
+anthropic
+python-dotenv
+fastapi
+uvicorn[standard]
+psycopg[binary]
+pgvector
+sentence-transformers
+scikit-learn
+joblib
+httpx
+pytest
