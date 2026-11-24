@@ -107,7 +107,7 @@ role merging, temperature clamping, stop sequences, content flattening, token to
 
 - **Router:** on a held-out set of 41 labeled questions the classifier scored about 98% accuracy
   (one error: a hard question sent to the cheap model). The 203 labeled examples are synthetic
-  (generated with Claude's help and reviewed), so treat this as an early signal, not a benchmark.
+  (written for this project, not real traffic), so treat this as an early signal, not a benchmark.
 - **Cache threshold:** a small experiment (`scripts/threshold_check.py`, 3 paraphrase pairs and
   3 near-miss pairs) showed the similarity ranges overlap. Example: "Convert 5 km to miles" vs
   "Convert 5 miles to km" scores 0.986, so a similarity threshold alone cannot prevent wrong cache
